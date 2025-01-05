@@ -408,7 +408,6 @@ void CGui::Render(const char* title, POINTS size, bool* b_open)
                 else if (m_iCurrentPage == ImPage_Lua)
                 {
                     ImGui::BeginChild("CodeFrame", ImVec2(0, ImGui::GetWindowHeight() - style.WindowPadding.x * 2 - style.ItemSpacing.y - ImGui::GetFrameHeight()), ImGuiChildFlags_None, ImGuiWindowFlags_NoBackground);
-                    ImGui::PopStyleColor();
                     {
                         ImGui::PushFont(io.Fonts->Fonts[ImFont_Code]);
                         ImGui::PushStyleColor(ImGuiCol_ScrollbarBg, ImVec4());
