@@ -1,6 +1,7 @@
 {
   "dependencies": [
+    "directxsdk",
     "freetype",
-    "directxsdk"
+    "boost-regex"
   ]
 }

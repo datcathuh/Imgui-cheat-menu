@@ -83,14 +83,13 @@
     <LibraryPath>$(SolutionDir)thirdparty\Microsoft DirectX SDK\Lib\x86;$(SolutionDir)thirdparty\FreeType\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>../../../bin/</OutDir>
-    <IntDir>../../../bin/OBJs/$(ProjectName)/</IntDir>
-    <IncludePath>$(SolutionDir)vendors;$(SolutionDir)thirdparty\Microsoft DirectX SDK\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)thirdparty\Microsoft DirectX SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>../../../bin/Debug/</OutDir>
+    <IntDir>../../../bin/DebugOBJs/$(ProjectName)/</IntDir>
+    <IncludePath>$(SolutionDir)vendors;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>../../../bin/</OutDir>
-    <IntDir>../../../bin/OBJs/$(ProjectName)/</IntDir>
+    <OutDir>../../../bin/Release/</OutDir>
+    <IntDir>../../../bin/ReleaseOBJs/$(ProjectName)/</IntDir>
     <IncludePath>$(SolutionDir)vendors;$(SolutionDir)thirdparty\Microsoft DirectX SDK\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)thirdparty\Microsoft DirectX SDK\Lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
