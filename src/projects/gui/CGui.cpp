@@ -398,6 +398,7 @@ void CGui::Render(const char* title, POINTS size, bool* b_open)
                                 }
                                 ImGui::EndGroup();
                             }
+                            ImGui::EndChild();
                             ImGui::PopStyleVar(2);
                         }
                         ImAdd::EndChild();
